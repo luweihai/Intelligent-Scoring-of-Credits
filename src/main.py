@@ -26,8 +26,8 @@ x_train_6,x_test_6 = get_data(data,feature6,50000)
 
 lgb1_model(1,x_train_1,y_train,x_test_1,'1')
 lgb2_model(1,x_train_2,y_train,x_test_2,'2')
-xgb_model(1,x_train_3,y_train,x_test_3,'3')
-cat_model(1,x_train_4,y_train,x_test_4,'4')
+xgb1_model(1,x_train_3,y_train,x_test_3,'3')
+xgb2_model(1,x_train_4,y_train,x_test_4,'4')
 lgb3_model(1,x_train_5,y_train,x_test_5,'5')
 lgb4_model(1,x_train_6,y_train,x_test_6,'6')
 

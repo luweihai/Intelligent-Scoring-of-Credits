@@ -10,8 +10,8 @@ target = train['信用分']
 
 data1 = pd.read_csv('../result/lgb1_model_1.csv')
 data2 = pd.read_csv('../result/lgb2_model_2.csv')
-data3 = pd.read_csv('../result/xgb_model_3.csv')
-data4 = pd.read_csv('../result/cat_model_4.csv')
+data3 = pd.read_csv('../result/xgb1_model_3.csv')
+data4 = pd.read_csv('../result/xgb2_model_4.csv')
 data5 = pd.read_csv('../result/lgb3_model_5.csv')
 data6 = pd.read_csv('../result/lgb4_model_6.csv')
 
